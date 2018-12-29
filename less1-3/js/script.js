@@ -3,6 +3,7 @@ let money,time;
 function start() {
     money = +prompt("Ваш бюджет на місяць");
     time = prompt("Введіть дату в форматі YYYY-MM_DD");
+    
     while (isNaN(money) || money == "" || money == null) {
         money = +prompt("Ваш бюджет на місяць");
     }
