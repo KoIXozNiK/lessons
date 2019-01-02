@@ -1,4 +1,3 @@
-console.log('load');
 window.addEventListener('DOMContentLoaded', function () {
 
     'use strict';
@@ -12,6 +11,7 @@ window.addEventListener('DOMContentLoaded', function () {
             tabContent[i].classList.add('hide');
         }
     }
+    hideTabContent(1);
 
     function showTabContent(b){
         if ( tabContent[b].classList.contains('hide')) {
